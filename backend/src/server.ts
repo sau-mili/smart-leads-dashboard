@@ -28,7 +28,8 @@ app.get('/api/health', (req: Request, res: Response) => {
   res.status(200).json({ status: 'API is running beautifully!' });
 });
 
-const PORT = process.env.PORT || 5000;
+// Look for the PORT variable from Render, OR fallback to 5000 for local testing
+const PORT = process.env.PORT || 5000; 
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
