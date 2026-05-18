@@ -40,7 +40,7 @@ export const getLeads = async (req: Request, res: Response): Promise<void> => {
     }
 
     // 3. Pagination Setup (Set to 2 for testing, normally 10)
-    const limit = 2; 
+    const limit = 10; 
     const pageNumber = parseInt(page as string, 10) || 1;
     const skip = (pageNumber - 1) * limit;
 
