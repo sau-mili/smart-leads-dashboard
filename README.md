@@ -2,7 +2,7 @@
 
 A full-stack, enterprise-grade CRM dashboard built with the MERN stack (MongoDB, Express, React, Node.js) and TypeScript. This application allows users to securely authenticate, manage customer leads, and track pipeline analytics in real-time.
 
-**[View Live Demo]** *(Insert your Vercel URL here!)* 🎥 **Demo Video:** A full demonstration video of the application in action is attached to this repository.
+**[View Live Demo]** *[(Insert your Vercel URL here!)](https://smart-leads-dashboard-bay.vercel.app/)* 🎥 **Demo Video:** A full demonstration video of the application in action is attached to this repository.
 
 ---
 
